@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "iranyekan";
+  src: url("Assets/fonts/IranYekan/eot/iranyekanwebregular.eot");
+  src: url("Assets/fonts/IranYekan/eot/iranyekanwebregular.eot?#iefix")
+      format("embedded-opentype"),
+    url("Assets/fonts/IranYekan/woff2/iranyekanwebregular.woff2")
+      format("woff2"),
+    url("Assets/fonts/IranYekan/woff/iranyekanwebregular.woff") format("woff"),
+    url("Assets/fonts/IranYekan/ttf/iranyekanwebregular.ttf") format("truetype"),
+    url("Assets/fonts/IranYekan/svg/iranyekanwebregular.svg#svgFontName")
+      format("svg");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "iranyekan";
+  src: url("Assets/fonts/IranYekan/eot/iranyekanwebbold.eot");
+  src: url("Assets/fonts/IranYekan/eot/iranyekanwebbold.eot?#iefix")
+      format("embedded-opentype"),
+    url("Assets/fonts/IranYekan/woff2/iranyekanwebbold.woff2") format("woff2"),
+    url("Assets/fonts/IranYekan/woff/iranyekanwebbold.woff") format("woff"),
+    url("Assets/fonts/IranYekan/ttf/iranyekanwebbold.ttf") format("truetype"),
+    url("Assets/fonts/IranYekan/svg/iranyekanwebbold.svg#svgFontName")
+      format("svg");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "iranyekan";
+  src: url("Assets/fonts/IranYekan/eot/iranyekanweblight.eot");
+  src: url("Assets/fonts/IranYekan/eot/iranyekanweblight.eot?#iefix")
+      format("embedded-opentype"),
+    url("Assets/fonts/IranYekan/woff2/iranyekanweblight.woff2") format("woff2"),
+    url("Assets/fonts/IranYekan/woff/iranyekanweblight.woff") format("woff"),
+    url("Assets/fonts/IranYekan/ttf/iranyekanweblight.ttf") format("truetype"),
+    url("Assets/fonts/IranYekan/svg/iranyekanweblight.svg#svgFontName")
+      format("svg");
+  font-weight: 100;
+}
+
+html,
+.MuiInputLabel-root,
+.MuiTypography-root,
+.MuiButton-root,
+#notistack-snackbar,
+.MuiMenuItem-root,
+.MuiInputBase-root {
+  font-family: "iranyekan", apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+#root{
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+}
