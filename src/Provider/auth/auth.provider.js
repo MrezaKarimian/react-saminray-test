@@ -16,7 +16,7 @@ function AuthProvider({ children }) {
     dispatch(LogOutAuth());
     localStorage.removeItem("USER_DATA");
     console.clear();
-    history.push("/");
+    history.push("/react-saminray-test");
   };
   const setUser = (user) => {
     dispatch(SetAuth(user));

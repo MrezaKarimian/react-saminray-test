@@ -5,7 +5,6 @@ export const initialStateRegister = {
   fullName: "",
   age: 0,
   gender: "",
-  errors: [],
 };
 
 const RegisterReducer = (state, action) => {

@@ -1,7 +1,6 @@
 export const initialStateLogin = {
   username: "",
   password: "",
-  errors: [],
 };
 
 const LoginReducer = (state, action) => {

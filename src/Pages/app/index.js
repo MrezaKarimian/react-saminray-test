@@ -15,23 +15,23 @@ function Index() {
       <Suspense fallback={<Loading />}>
         <Switch>
           <Redirect exact from="/app" to="/app/article" />
-          <PrivateRoute exact path="/app/article" component={Article} to="/" />
+          <PrivateRoute exact path="/app/article" component={Article} to="/react-saminray-test" />
           <PrivateRoute
             exact
             path="/app/add-article"
             component={AddArticle}
-            to="/"
+            to="/react-saminray-test"
           />
           <PrivateRoute
             exact
             path="/app/category"
             component={Category}
-            to="/"
+            to="/react-saminray-test"
           />
           <PrivateRoute
             path="/app/add-category"
             component={AddCategory}
-            to="/"
+            to="/react-saminray-test"
           />
         </Switch>
       </Suspense>

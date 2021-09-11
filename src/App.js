@@ -31,10 +31,10 @@ function App() {
   return (
     <Suspense fallback={<Loading />}>
       <Switch>
-        <Redirect exact from="/" to="/login" />
+        <Redirect exact from="/react-saminray-test" to="/login" />
         <GuestRoute path="/login" component={Login} to="/app" />
         <GuestRoute path="/register" component={Register} to="/app" />
-        <PrivateRoute path="/app" component={Dashboard} to="/" />
+        <PrivateRoute path="/app" component={Dashboard} to="/react-saminray-test" />
         <Route component={NotFound} />
       </Switch>
     </Suspense>
